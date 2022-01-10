@@ -1,8 +1,15 @@
 # Word Master
 
+🔗 https://dspinellis.github.io/word-master/ forked from
 🔗 https://octokatherine.github.io/word-master/
 
-Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind. I created this because I love Wordle, but the once a day limit leaves me wanting more.
+Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind.
+The original author  [Katherine Peterson](https://github.com/octokatherine)
+created this because she loved Wordle,
+but the once a day limit left her wanting more.
+I forked this and converted it to Greek words, because I love the Greek
+language, and have been converting software to support Greek for
+as long as I remember myself programming.
 
 ## Rules
 
@@ -19,4 +26,4 @@ After submitting a guess, the letters will turn gray, green, or yellow.
 
 Feel free to open an issue for any bugs or feature requests.
 
-To contribute to the code, see [CONTRIBUTING.md](https://github.com/octokatherine/word-master/blob/main/CONTRIBUTING.md)
+To contribute to the code, see [CONTRIBUTING.md](https://github.com/dspinellis/word-master/blob/main/CONTRIBUTING.md)
