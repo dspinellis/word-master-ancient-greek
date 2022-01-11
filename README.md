@@ -1,15 +1,23 @@
-# Word Master
+# Word Master — Greek version
 
-🔗 https://dspinellis.github.io/word-master/ forked from
-🔗 https://octokatherine.github.io/word-master/
+🔗 https://dspinellis.github.io/word-master/
 
 Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind.
-The original author  [Katherine Peterson](https://github.com/octokatherine)
-created this because she loved Wordle,
+This Greek word version is almost completely based on the
+[original English word version](https://github.com/octokatherine/word-master),
+which can be played [here](https://octokatherine.github.io/word-master/).
+
+The original author of Word Master,
+[Katherine Peterson](https://github.com/octokatherine),
+created it because she loved Wordle,
 but the once a day limit left her wanting more.
-I forked this and converted it to Greek words, because I love the Greek
-language, and have been converting software to support Greek for
-as long as I remember myself programming.
+I forked her version and converted it to use Greek words,
+because I love the Greek language,
+and have been writing software to support Greek for the past 40 years.
+I was also fortunate to use the, now widely adopted, Greek dictionary originally
+created by Giannis Mitalas and Nikos Seraskeris as a
+[thesis project](https://www2.dmst.aueb.gr/dds/sw/greek/ispell/)
+I supervised at the University of the Aegean in 1999.
 
 ## Rules
 
