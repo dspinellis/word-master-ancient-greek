@@ -20,7 +20,7 @@ const state = {
 
 const getRandomAnswer = () => {
   const randomIndex = Math.floor(Math.random() * answers.length)
-  return answers[randomIndex].toUpperCase()
+  return answers[randomIndex]
 }
 
 function App() {
@@ -134,7 +134,7 @@ function App() {
 
   const isValidWord = (word) => {
     if (word.length < 5) return false
-    return words[word.toLowerCase()]
+    return words[word]
   }
 
   const onEnterPress = () => {
