@@ -37,3 +37,10 @@ html {
 .font-righteous {
   font-family: 'Righteous', cursive;
 }
+
+/* Hide Q, W keys */
+header + div + div > div:first-child > button:nth-child(1),
+header + div + div > div:first-child > button:nth-child(2) {
+	opacity: 0;
+	pointer-events: none;
+}
