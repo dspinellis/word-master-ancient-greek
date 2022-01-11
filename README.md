@@ -19,6 +19,18 @@ created by Giannis Mitalas and Nikos Seraskeris as a
 [thesis project](https://www2.dmst.aueb.gr/dds/sw/greek/ispell/)
 I supervised at the University of the Aegean in 1999.
 
+I created the list of acceptable words by filtering the
+[Greek dictionary](https://github.com/LibreOffice/dictionaries/tree/master/el_GR)
+of [Hunspell](http://hunspell.github.io/) to remove proper nouns
+and words that are not five characters long.
+I created the list of candidate words by obtaining the
+2079 (same number as in the English version) most common words
+in the [Greek Wikipedia](https://el.wikipedia.org/)
+that were in the acceptable words list.
+The Unix shell script for creating the two lists is
+available
+[here](https://github.com/dspinellis/word-master/blob/main/src/data/mklists.sh).
+
 ## Rules
 
 You have 6 guesses to guess the correct word.
