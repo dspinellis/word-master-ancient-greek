@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Create lists of candidate answers and allowed word list.
+# Diomidis Spinellis, January 2022
 #
 
 # Date of the Wikipedia dump to fetch
