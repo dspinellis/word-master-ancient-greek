@@ -1,9 +1,9 @@
-# Word Master — Greek version
+# Word Master — Ancient Greek version
 
-🔗 https://dspinellis.github.io/word-master/
+🔗 https://dspinellis.github.io/word-master-ancient-greek/
 
 Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind.
-This Greek word version is almost completely based on the
+This Ancient Greek word version is almost completely based on the
 [original English word version](https://github.com/octokatherine/word-master),
 which can be played [here](https://octokatherine.github.io/word-master/).
 
@@ -11,25 +11,22 @@ The original author of Word Master,
 [Katherine Peterson](https://github.com/octokatherine),
 created it because she loved Wordle,
 but the once a day limit left her wanting more.
-I forked her version and converted it to use Greek words,
+I forked her version and converted it to use
+first [Greek words](https://github.com/dspinellis/word-master)
+and here Ancient Greek words,
 because I love the Greek language,
 and have been writing software to support Greek for the past 40 years.
-I was also fortunate to use the, now widely adopted, Greek dictionary originally
-created by Giannis Mitalas and Nikos Seraskeris as a
-[thesis project](https://www2.dmst.aueb.gr/dds/sw/greek/ispell/)
-I supervised at the University of the Aegean in 1999.
 
-I created the list of acceptable words by filtering the
+I created the lists of acceptable and candidate words by processing the
+classic ancient Greek texts of the
+[Perseus Project digital library](http://www.perseus.tufts.edu/hopper/)
 [Greek dictionary](https://github.com/LibreOffice/dictionaries/tree/master/el_GR)
-of [Hunspell](http://hunspell.github.io/) to remove proper nouns
-and words that are not five characters long.
-I created the list of candidate words by obtaining the
-2079 (same number as in the English version) most common words
-in the [Greek Wikipedia](https://el.wikipedia.org/)
-that were in the acceptable words list.
+to remove SGML markup, English and Latin text,
+convert the Greek characters from Beta code into Unicode,
+and keep words that exactly five characters long.
 The Unix shell script for creating the two lists is
 available
-[here](https://github.com/dspinellis/word-master/blob/main/src/data/mklists.sh).
+[here](https://github.com/dspinellis/word-master-ancient-greek/blob/main/src/data/mklists.sh).
 
 ## Rules
 
@@ -46,4 +43,4 @@ After submitting a guess, the letters will turn gray, green, or yellow.
 
 Feel free to open an issue for any bugs or feature requests.
 
-To contribute to the code, see [CONTRIBUTING.md](https://github.com/dspinellis/word-master/blob/main/CONTRIBUTING.md)
+To contribute to the code, see [CONTRIBUTING.md](https://github.com/dspinellis/word-master-ancient-greek/blob/main/CONTRIBUTING.md)
