@@ -20,7 +20,6 @@ and have been writing software to support Greek for the past 40 years.
 I created the lists of acceptable and candidate words by processing the
 classic ancient Greek texts of the
 [Perseus Project digital library](http://www.perseus.tufts.edu/hopper/)
-[Greek dictionary](https://github.com/LibreOffice/dictionaries/tree/master/el_GR)
 to remove SGML markup, English and Latin text,
 convert the Greek characters from Beta code into Unicode,
 and keep words that exactly five characters long.
