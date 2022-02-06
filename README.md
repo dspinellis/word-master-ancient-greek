@@ -47,3 +47,8 @@ After submitting a guess, the letters will turn gray, green, or yellow.
 Feel free to open an issue for any bugs or feature requests.
 
 To contribute to the code, see [CONTRIBUTING.md](https://github.com/dspinellis/word-master-ancient-greek/blob/main/CONTRIBUTING.md)
+
+## See also
+
+The [Wordles of the world](https://rwmpelstilzchen.gitlab.io/wordles/) list
+contains a comprehensive collection of Wordle-like games in diverse languages.
