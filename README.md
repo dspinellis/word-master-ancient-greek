@@ -26,8 +26,10 @@ and keep words that exactly five characters long.
 The Unix shell script for creating the two lists is
 available
 [here](https://github.com/dspinellis/word-master-ancient-greek/blob/main/src/data/mklists.sh).
-The translations of all texts were kindly provided by
-[helmadik](https://github.com/helmadik) of the
+The translations of all texts as well as a clean reference word list used to
+clean up the  mined lists were kindly provided by
+[Helma Dik](https://classics.uchicago.edu/people/helma-dik).
+The clean word list was derived from the
 [ΛΟΓΕΙΟΝ](https://logeion.uchicago.edu/lexidium) project,
 which you can use to look up words.
 
