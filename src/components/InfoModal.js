@@ -25,20 +25,20 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }) => (
           </ul>
           <div className="mb-3 mt-8 flex items-center">
             <span className="nm-inset-n-green text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
-              W
+              Γ
             </span>
             <span className="mx-2">=</span>
             <span>Ὀρθὸν γράμμα τε καὶ ὀρθὴ θέσις</span>
           </div>
           <div className="mb-3">
             <span className="nm-inset-yellow-500 text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
-              W
+              Γ
             </span>
             <span className="mx-2">=</span>
             <span>Ὀρθὸν μὲν γράμμα ἔγραψας, ἥμαρτες δὲ τῆς ὀρθῆς θέσεως</span>
           </div>
           <span className="nm-inset-n-gray text-gray-50 inline-flex items-center justify-center text-3x w-10 h-10 rounded-full">
-            W
+            Γ
           </span>
           <span className="mx-2">=</span>
           <span>Τοῦτο τὸ γράμμα οὔκ ἐστιν μέρος λόγου</span>
